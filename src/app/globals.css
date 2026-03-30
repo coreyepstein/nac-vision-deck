@@ -1,0 +1,29 @@
+@import "tailwindcss";
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;600;700&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&family=Space+Mono:wght@400;700&display=swap");
+
+@theme {
+  --color-red: #B91C1C;
+  --color-navy: #1E3A5F;
+  --color-black: #0F0F0F;
+  --color-offwhite: #FAFAFA;
+  --color-card-bg: #00000008;
+  --color-card-border: #00000015;
+  --font-heading: "Oswald", sans-serif;
+  --font-body: "Source Serif 4", serif;
+  --font-mono: "Space Mono", monospace;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #0F0F0F;
+  overflow: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}
